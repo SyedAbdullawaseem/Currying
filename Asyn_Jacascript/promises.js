@@ -12,8 +12,8 @@ function getPosts(){
         document.body.innerHTML=output;
     }, 1000);
 }
-    
-        
+
+
 
 
 function createPost(post){
@@ -31,7 +31,7 @@ function createPost(post){
         }
         }, 2000)
     })
-    
+
 }
 // const user={
 // }
@@ -49,7 +49,7 @@ function createPost(post){
 //         {
 //             reject('Array is empty now')
 //         }
-       
+
 //     }, 1000)
 // });
 // }
@@ -80,6 +80,3 @@ const promise3= new Promise((resolve, reject)=>
 setTimeout(resolve, 2000, 'GoodBye')
 );
 Promise.all([promise1,promise2,promise3]).then(values=>console.log(values));
-
-
-
